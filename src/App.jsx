@@ -569,7 +569,8 @@ export default function App() {
                 <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 6, marginBottom: 8 }}>
                   {[
                     { label: "創業", value: company.founded + "年" },
-                   { label: "売上(概算)", value: company.revenue2025 > 0 ? `¥${Math.round(company.revenue2025 * 150)}B円` : "試作中" },
+               　　 { label: "売上(概算)", value: company.revenueOku > 0 ? `${company.revenueOku.toLocaleString()}億円` : "試作中" }
+                   // { label: "売上(概算)", value: company.revenue2025 > 0 ? `¥${Math.round(company.revenue2025 * 150)}B円` : "試作中" },
                    { label: "社員数", value: company.employees >= 10000 ? Math.round(company.employees / 1000) + "K人" : company.employees.toLocaleString() + "人" },
                   ].map((m) => (
                     <div key={m.label} style={{
