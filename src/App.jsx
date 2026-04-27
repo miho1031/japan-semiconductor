@@ -129,7 +129,14 @@ export default function App() {
             </div>
 
             <div style={{ fontSize: 13 }}>
-              売上: {formatJPY(c.revenue2025)} / {c.revenueGrowth}
+              {/* 売上: {formatJPY(c.revenue2025)} / {c.revenueGrowth} */}
+　　　　　　　 売上:{" "}
+              {c.revenue2025 >= 10000
+                ? (c.revenue2025 / 10000).toFixed(1) + "兆円"
+                : c.revenue2025 + "億円"}
+
+
+              
             </div>
           </div>
         ))}
