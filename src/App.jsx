@@ -12,7 +12,7 @@ const companies = [
     origin: "三菱電機・日立・NEC半導体事業統合",
     marketCapJPY: 2500,
     employees: 21000,
-    revenue2025: 1.0,
+    revenueOku: 1500,
     revenueGrowth: "-8%",
     worldShare: "車載マイコン世界首位（約30%）",
     specialty: "車載マイコン・産業用半導体",
@@ -21,6 +21,7 @@ const companies = [
     moat: "車載マイコン世界首位・安全規格対応の高い参入障壁",
     color: "#c8102e",
     globalRank: "世界18位（売上）",
+    url: "https://tradercat.site/test.html",
   },
   {
     id: 2,
@@ -32,7 +33,7 @@ const companies = [
     origin: "イメージセンサー部門が主力",
     marketCapJPY: 12000,
     employees: 13000,
-    revenue2025: 4.2,
+    revenueOku: 6300,
     revenueGrowth: "+8%",
     worldShare: "CMOSイメージセンサー世界首位（約50%）",
     specialty: "CMOSイメージセンサー・AI対応センサー",
@@ -41,6 +42,7 @@ const companies = [
     moat: "スマホカメラセンサー市場独占・車載センサーへ拡大中",
     color: "#000000",
     globalRank: "世界12位（売上）",
+    url: "https://tradercat.site/test.html",
   },
   {
     id: 3,
@@ -52,7 +54,7 @@ const companies = [
     origin: "東芝メモリから分社化・2019年改名",
     marketCapJPY: 1200,
     employees: 19000,
-    revenue2025: 3.0,
+    revenueOku: 4500,
     revenueGrowth: "+25%",
     worldShare: "NANDフラッシュメモリ世界3位（約20%）",
     specialty: "NAND型フラッシュメモリ・SSD",
@@ -61,6 +63,7 @@ const companies = [
     moat: "NANDフラッシュ世界3位・AI向けデータセンター需要で成長中",
     color: "#e60012",
     globalRank: "世界15位（売上）",
+    url: "https://tradercat.site/test.html",
   },
   {
     id: 4,
@@ -72,7 +75,7 @@ const companies = [
     origin: "富士通・Panasonicの半導体設計部門統合",
     marketCapJPY: 500,
     employees: 3000,
-    revenue2025: 0.18,
+    revenueOku: 270,
     revenueGrowth: "-5%",
     worldShare: "日本唯一のファブレス大手",
     specialty: "カスタムSoC設計（データセンター・車載・ネットワーク）",
@@ -81,6 +84,7 @@ const companies = [
     moat: "日本唯一の本格ファブレス・高付加価値カスタム設計",
     color: "#0066cc",
     globalRank: "国内ファブレス唯一の大手",
+    url: "https://tradercat.site/test.html",
   },
   {
     id: 5,
@@ -92,7 +96,7 @@ const companies = [
     origin: "京都発・抵抗器から半導体へ",
     marketCapJPY: 800,
     employees: 23000,
-    revenue2025: 0.39,
+    revenueOku: 585,
     revenueGrowth: "-3%",
     worldShare: "SiCパワー半導体で世界3位",
     specialty: "パワー半導体・SiC・アナログIC",
@@ -101,6 +105,7 @@ const companies = [
     moat: "SiCパワー半導体世界3位・EV普及で需要急増",
     color: "#cc0000",
     globalRank: "SiCパワー半導体世界3位",
+    url: "https://tradercat.site/test.html",
   },
   {
     id: 6,
@@ -112,7 +117,7 @@ const companies = [
     origin: "ドイツ・シーメンスとの合弁が起源",
     marketCapJPY: 700,
     employees: 27000,
-    revenue2025: 0.45,
+    revenueOku: 675,
     revenueGrowth: "+5%",
     worldShare: "IGBTパワー半導体で世界3〜4位",
     specialty: "IGBTパワー半導体・インバータ",
@@ -121,6 +126,7 @@ const companies = [
     moat: "IGBT世界上位・インバータ垂直統合",
     color: "#cc6600",
     globalRank: "IGBTパワー半導体世界3〜4位",
+    url: "https://tradercat.site/test.html",
   },
 
   // 製造装置
@@ -134,7 +140,7 @@ const companies = [
     origin: "日本発・半導体・FPD製造装置",
     marketCapJPY: 5500,
     employees: 16000,
-    revenue2025: 2.1,
+    revenueOku: 3150,
     revenueGrowth: "+18%",
     worldShare: "半導体製造装置世界3位",
     specialty: "エッチング・CVD・コータ/デベロッパ装置",
@@ -143,6 +149,7 @@ const companies = [
     moat: "製造装置世界3位・コータ/デベロッパで首位",
     color: "#cc0000",
     globalRank: "製造装置世界3位",
+    url: "https://tradercat.site/test.html",
   },
   {
     id: 8,
@@ -154,7 +161,7 @@ const companies = [
     origin: "安藤電気から独立",
     marketCapJPY: 4200,
     employees: 5000,
-    revenue2025: 0.8,
+    revenueOku: 1200,
     revenueGrowth: "+42%",
     worldShare: "半導体テスター世界首位（約50%）",
     specialty: "半導体テスト装置（SoC・メモリ・HBM）",
@@ -163,6 +170,7 @@ const companies = [
     moat: "テスター世界首位・HBMテスト需要でAI恩恵直撃",
     color: "#003087",
     globalRank: "テスター世界首位",
+    url: "https://tradercat.site/test.html",
   },
   {
     id: 9,
@@ -174,7 +182,7 @@ const companies = [
     origin: "ダイヤモンド工具メーカーが起源",
     marketCapJPY: 3000,
     employees: 5000,
-    revenue2025: 0.45,
+    revenueOku: 675,
     revenueGrowth: "+20%",
     worldShare: "ダイシング・研削装置で世界シェア8割超",
     specialty: "ウェーハダイシング・研削・研磨装置",
@@ -183,6 +191,7 @@ const companies = [
     moat: "ダイシング装置世界シェア80%超・代替ほぼ不可能",
     color: "#0066cc",
     globalRank: "ダイシング装置世界首位（8割超）",
+    url: "https://tradercat.site/test.html",
   },
   {
     id: 10,
@@ -194,7 +203,7 @@ const companies = [
     origin: "レーザー応用計測機器メーカー",
     marketCapJPY: 2000,
     employees: 1600,
-    revenue2025: 0.35,
+    revenueOku: 525,
     revenueGrowth: "+30%",
     worldShare: "EUVマスク検査装置で世界唯一",
     specialty: "EUVフォトマスク欠陥検査装置",
@@ -203,6 +212,7 @@ const companies = [
     moat: "EUVマスク検査で世界唯一・ASMLと並ぶ不可欠ポジション",
     color: "#e60026",
     globalRank: "EUVマスク検査装置で世界唯一",
+    url: "https://tradercat.site/test.html",
   },
   {
     id: 11,
@@ -214,7 +224,7 @@ const companies = [
     origin: "大日本スクリーン製造が前身",
     marketCapJPY: 600,
     employees: 6000,
-    revenue2025: 0.35,
+    revenueOku: 525,
     revenueGrowth: "+12%",
     worldShare: "洗浄装置で世界2〜3位",
     specialty: "ウェーハ洗浄装置・熱処理装置",
@@ -223,6 +233,7 @@ const companies = [
     moat: "洗浄装置で世界上位・枚葉洗浄に強み",
     color: "#336699",
     globalRank: "洗浄装置世界2〜3位",
+    url: "https://tradercat.site/test.html",
   },
 
   // 素材・ウェーハ
@@ -236,7 +247,7 @@ const companies = [
     origin: "電気化学工業から分離独立",
     marketCapJPY: 8000,
     employees: 23000,
-    revenue2025: 2.0,
+    revenueOku: 3000,
     revenueGrowth: "+4%",
     worldShare: "シリコンウェーハ世界首位（約30%）・フォトレジスト世界首位",
     specialty: "シリコンウェーハ・フォトレジスト・塩化ビニル",
@@ -245,6 +256,7 @@ const companies = [
     moat: "ウェーハ世界首位＋フォトレジスト首位・二冠の希少企業",
     color: "#cc0000",
     globalRank: "ウェーハ世界首位・フォトレジスト世界首位",
+    url: "https://tradercat.site/test.html",
   },
   {
     id: 13,
@@ -256,7 +268,7 @@ const companies = [
     origin: "三菱マテリアルシリコン等が統合",
     marketCapJPY: 600,
     employees: 11000,
-    revenue2025: 0.28,
+    revenueOku: 420,
     revenueGrowth: "-5%",
     worldShare: "シリコンウェーハ世界2位（約25%）",
     specialty: "シリコンウェーハ",
@@ -265,6 +277,7 @@ const companies = [
     moat: "ウェーハ世界2位・信越化学と2社で世界の55%を供給",
     color: "#0066cc",
     globalRank: "ウェーハ世界2位",
+    url: "https://tradercat.site/test.html",
   },
   {
     id: 14,
@@ -276,7 +289,7 @@ const companies = [
     origin: "日本合成ゴム株式会社が前身",
     marketCapJPY: null,
     employees: 10000,
-    revenue2025: 0.24,
+    revenueOku: 360,
     revenueGrowth: "+6%",
     worldShare: "フォトレジスト世界2〜3位・ArF液浸で首位級",
     specialty: "フォトレジスト・半導体材料",
@@ -285,6 +298,7 @@ const companies = [
     moat: "ArF液浸レジストで世界首位級・2023年に産業革新投資機構が買収",
     color: "#336699",
     globalRank: "フォトレジスト世界2〜3位",
+    url: "https://tradercat.site/test.html",
   },
 
   // 後工程・パッケージ
@@ -298,7 +312,7 @@ const companies = [
     origin: "揖斐川電力（水力発電）が起源",
     marketCapJPY: 1200,
     employees: 16000,
-    revenue2025: 0.55,
+    revenueOku: 825,
     revenueGrowth: "+28%",
     worldShare: "FC-BGA基板（フリップチップ）世界首位",
     specialty: "AIサーバー向けパッケージ基板・FC-BGA",
@@ -307,6 +321,7 @@ const companies = [
     moat: "AI向けFC-BGA基板で世界首位・Intelとの長期関係",
     color: "#003087",
     globalRank: "FC-BGA基板世界首位",
+    url: "https://tradercat.site/test.html",
   },
   {
     id: 16,
@@ -318,7 +333,7 @@ const companies = [
     origin: "富士通系列の半導体パッケージメーカー",
     marketCapJPY: 400,
     employees: 9000,
-    revenue2025: 0.28,
+    revenueOku: 420,
     revenueGrowth: "+15%",
     worldShare: "FC-BGA基板世界2〜3位",
     specialty: "半導体パッケージ基板・リードフレーム",
@@ -327,6 +342,7 @@ const companies = [
     moat: "FC-BGA世界上位・富士通グループのバックアップ",
     color: "#cc6600",
     globalRank: "FC-BGA基板世界2〜3位",
+    url: "https://tradercat.site/test.html",
   },
 
   // 国策・次世代
@@ -340,7 +356,7 @@ const companies = [
     origin: "日本政府主導・トヨタ・ソニー等8社出資",
     marketCapJPY: null,
     employees: 1000,
-    revenue2025: 0,
+    revenueOku: 0,
     revenueGrowth: "—",
     worldShare: "2027年2nm量産目標",
     specialty: "2nm以降の最先端ロジック半導体製造",
@@ -349,6 +365,7 @@ const companies = [
     moat: "日本政府の国策・1兆円超の補助金・TSMC対抗の最後の切り札",
     color: "#cc0000",
     globalRank: "2026年4月から2nm試作ライン本格稼働",
+    url: "https://tradercat.site/test.html",
   },
 ];
 
@@ -369,7 +386,7 @@ export default function App() {
     .filter((c) => filter === "all" || c.typeCode === filter)
     .sort((a, b) => {
       if (sortBy === "marketCapJPY") return (b.marketCapJPY || 0) - (a.marketCapJPY || 0);
-      if (sortBy === "revenue2025") return b.revenue2025 - a.revenue2025;
+      if (sortBy === "revenue2025") return b.revenueOku - a.revenueOku;
       if (sortBy === "founded") return a.founded - b.founded;
       return 0;
     });
@@ -525,7 +542,11 @@ export default function App() {
 
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: 8 }}>
                   <div>
-                    <div style={{ fontSize: 15, fontWeight: 800, color: "#f0f0ff", marginBottom: 2 }}>{company.name}</div>
+                    <div style={{ fontSize: 15, fontWeight: 800, marginBottom: 2 }}>
+                      <a href={company.url} target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()} style={{ color: "#f0f0ff", textDecoration: "none", borderBottom: "1px solid #3a5a8a" }}>
+                        {company.name}
+                      </a>
+                    </div>
                     <div style={{ display: "flex", gap: 6, alignItems: "center" }}>
                       <span style={{ fontSize: 10, color: "#4a6a8a" }}>{company.ticker}</span>
                       <span style={{
@@ -569,8 +590,8 @@ export default function App() {
                 <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 6, marginBottom: 8 }}>
                   {[
                     { label: "創業", value: company.founded + "年" },
-               　　 { label: "売上(概算)", value: company.revenueOku > 0 ? `${company.revenueOku.toLocaleString()}億円` : "試作中" }
-                { label: "社員数", value: company.employees >= 10000　? (company.employees / 10000).toFixed(1).replace(".0", "") + "万人"　: company.employees.toLocaleString() + "人"},
+                    { label: "売上(概算)", value: company.revenueOku > 0 ? `${company.revenueOku.toLocaleString()}億円` : "試作中" },
+                    { label: "社員数", value: company.employees >= 10000 ? (company.employees / 10000).toFixed(1) + "万人" : company.employees.toLocaleString() + "人" },
                   ].map((m) => (
                     <div key={m.label} style={{
                       background: "#080c14",
