@@ -438,7 +438,7 @@ export default function App() {
             Japan Semiconductor Intelligence 2026
           </div>
           <h1 style={{ fontSize: 26, fontWeight: 800, margin: "0 0 4px", letterSpacing: "-0.02em" }}>
-            🇯🇵 日本の半導体企業 完全マップ</br>売上などの数字に間違いが見つかりました。只今修正中になります。2026.5.1
+            🇯🇵 日本の半導体企業 完全マップ<br></br>※ 数値は確認・更新中です。2026.5.1
           </h1>
           <p style={{ color: "#4a6a8a", fontSize: 13, margin: "0 0 20px" }}>
             チップ設計・製造装置・素材・後工程・次世代ファウンドリ — 全分野網羅
